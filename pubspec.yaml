@@ -1,0 +1,25 @@
+name: awakening_tools
+description: "Awakening Tools - Device Customizer & Rescue Suite without Root."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  path_provider: ^2.1.2       # Untuk simpan file export launcher
+  file_picker: ^8.0.0         # Untuk import file launcher / APK
+  permission_handler: ^11.3.0 # Untuk izin storage & accessibility
+  shared_preferences: ^2.2.2  # Simpan settingan lokal
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
